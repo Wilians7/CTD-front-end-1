@@ -1,0 +1,25 @@
+  
+.box {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 12px;
+}
+
+.box-first {
+    background-color: blue;
+    /* Ele mantem a referencia, somente visual */
+    position: relative;
+    right: 50;
+}
+
+.box-second {
+    background-color: blueviolet;
+    /* referencia é o tamanho da tela (navegador) */
+    position: absolute; 
+    right: 0px;
+    top: 0px;
+}
+
+.box-third {
+    background-color: black;
+}
