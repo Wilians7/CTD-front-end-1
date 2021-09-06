@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
+
+header {
+    background-color: rosybrown;
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    width: 20%;
+    font-family: 'Azeret Mono', monospace;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
+
+body {
+
+    color: yellow;
+    background-color: teal;
+    background-image: url(https://portaljfonte.com.br/wp-content/uploads/2020/10/jaboticabal-aerea.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+  
+}
