@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Doceteria Adocica</title>
+</head>
+
+<body>
+    <section>
+        <h1>Doceteria Adocica</h1>
+        <h2>A vida é mais doce aqui!</h2>
+        <fieldset>
+            <div>
+                <label for="name">Digite seu nome</label>
+                <input type="text" name="name" id="name" size="30">
+                <label for="phone">Telefone(ddd)</label>
+                <input type="text" name="ddd" id="phone" size="2" minlength="2" maxlength="2">
+                <input type="text" name="phone" id="phone" size="9" minlength="9" maxlength="9">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="weight">Peso da Torta (kg)</label>
+                <select name="weight" id="weight">
+                    <option value="0"></option>
+                    <option value="1">02</option>
+                    <option value="2">04</option>
+                    <option value="3">06</option>
+                    <option value="4">08</option>
+                    <option value="5">10</option>
+                </select>
+                <label for="size">Quantas Camadas</label>
+                <select name="size" id="size">
+                    <option value="0"></option>
+                    <option value="1">Uma</option>
+                    <option value="2">Duas</option>
+                    <option value="3">Três</option>
+                </select>
+                <div>
+                <label for="tipo">Modelo</label>
+                <input type="radio" name="tipo" id="trad"> <label for="trad">Tradicional</label>
+                <input type="radio" name="tipo" id="pers"> <label for="pers">Personalizado</label>
+                </div>
+            </div>
+            <div>
+                <label for="flavor">Sabor:</label>
+                <input type="text" name="flavor" id="flavor" size="30">
+                <div>
+                    <label id="moreinfolabel" for="moreinfo">Observações</label>
+                    <textarea name="moreinfo" id="moreinfo" cols="30" rows="2"></textarea>
+                </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="setto">Data da Entrega ou Retirada:</label>
+                <input type="date" id="setto">
+                <div>
+                <label for="payment">Forma de Pagamento</label>
+                <input type="radio" name="payment" id="dinheiro">
+                <label for="dinheiro">Dinheiro</label>
+                <input type="radio" name="payment" id="pix">
+                <label for="pix">Pix</label>
+                <input type="radio" name="payment" id="cartao">
+                <label for="cartao">Cartão</label>
+            </div>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <input type="radio" name="entrega" id="entregar">
+                <label for="entregar">Entrega</label>
+                <input type="radio" name="entrega" id="retirar">
+                <label for="retirar">Retirada no Local</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="address">Endereço</label>
+                <input type="text" name="address" id="address" size="30">
+                <label for="number">Nº</label>
+                <input type="text" name="number" id="number" size="2" maxlength="2">
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro" size="18" maxlength="18">
+            </div>
+        </fieldset>
+        <div>
+        <button class="botoes" type="submit">Enviar Dados</button> 
+        <button class="botoes" type="reset">Limpar Campos</button>
+        </div>
+    </section>
+</body>
+
+</html>
